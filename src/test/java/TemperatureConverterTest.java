@@ -28,4 +28,14 @@ public class TemperatureConverterTest {
     void testFahrenheitToCelsiusFreezingPoint() {
         assertEquals(0.0, converter.fahrenheitToCelsius(32.0), 0.01);
     }
+
+    @Test
+    void testCelsiusToKelvinFreezingPoint() {
+        assertEquals(273.15, converter.celsiusToKelvin(0.0), 0.01);
+    }
+
+    @Test
+    void testCelsiusToKelvinBoilingPoint() {
+        assertEquals(373.15, converter.celsiusToKelvin(100.0), 0.01);
+    }
 }

@@ -25,4 +25,8 @@ public class TemperatureConverter {
     public double fahrenheitToCelsius(double fahrenheit) {
         return (fahrenheit - 32) * (5.0 / 9.0);
     }
+    public double celsiusToKelvin(double celsius) {
+        // Stub: not implemented yet (Red stage of TDD).
+        return 0.0;
+    }
 }
