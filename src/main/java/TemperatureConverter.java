@@ -4,6 +4,8 @@
  */
 public class TemperatureConverter {
 
+    // Conversion methods are independent: none of them calls another.
+
     /**
      * Converts Celsius to Fahrenheit using F = (C x 9.0 / 5.0) + 32.
      *
