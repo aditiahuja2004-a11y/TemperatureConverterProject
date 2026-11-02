@@ -25,8 +25,13 @@ public class TemperatureConverter {
     public double fahrenheitToCelsius(double fahrenheit) {
         return (fahrenheit - 32) * (5.0 / 9.0);
     }
+    /**
+     * Converts Celsius to Kelvin using K = C + 273.15.
+     *
+     * @param celsius temperature in degrees Celsius
+     * @return temperature in kelvins
+     */
     public double celsiusToKelvin(double celsius) {
-        // Stub: not implemented yet (Red stage of TDD).
-        return 0.0;
+        return celsius + 273.15;
     }
 }
