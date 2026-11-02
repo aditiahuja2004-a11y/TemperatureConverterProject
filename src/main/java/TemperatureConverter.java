@@ -14,8 +14,13 @@ public class TemperatureConverter {
         return (celsius * 9.0 / 5.0) + 32;
     }
 
+    /**
+     * Converts Fahrenheit to Celsius using C = (F - 32) x (5.0 / 9.0).
+     *
+     * @param fahrenheit temperature in degrees Fahrenheit
+     * @return temperature in degrees Celsius
+     */
     public double fahrenheitToCelsius(double fahrenheit) {
-        // Stub: not implemented yet (Red stage of TDD).
-        return 0.0;
+        return (fahrenheit - 32) * (5.0 / 9.0);
     }
 }
