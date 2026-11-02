@@ -23,7 +23,7 @@ public class TemperatureConverter {
      * @return temperature in degrees Celsius
      */
     public double fahrenheitToCelsius(double fahrenheit) {
-        return (fahrenheit - 32) * (5.0 / 9.0);
+        return (fahrenheit - 32) * (5 / 9);
     }
     /**
      * Converts Celsius to Kelvin using K = C + 273.15.
