@@ -5,7 +5,6 @@
 public class TemperatureConverter {
 
     public double celsiusToFahrenheit(double celsius) {
-        // Stub: not implemented yet (Red stage of TDD).
-        return 0.0;
+        return (celsius * 9.0 / 5.0) + 32;
     }
 }
