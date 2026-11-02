@@ -32,6 +32,6 @@ public class TemperatureConverter {
      * @return temperature in kelvins
      */
     public double celsiusToKelvin(double celsius) {
-        return celsius + 273.15;
+        return celsius + 273;
     }
 }
